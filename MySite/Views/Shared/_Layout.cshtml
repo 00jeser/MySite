@@ -1,0 +1,27 @@
+﻿<!doctype html>
+<!--
+    Author by FreeHTML5.co
+    Twitter: https://twitter.com/fh5co
+    Facebook: https://fb.com/fh5co
+    URL: https://freehtml5.co
+-->
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    @await Html.PartialAsync("MetatagsPartial")
+    @await Html.PartialAsync("CssPartial")
+</head>
+<body>
+
+    <!-- Navigation -->
+    @await Html.PartialAsync("HeaderPartial")
+    <!-- Navigation end -->
+    @RenderBody()
+    <!-- Footer -->
+    @await Html.PartialAsync("FooterPartial")
+    <!-- Footer end -->
+    <!-- Scripts -->
+    @await Html.PartialAsync("ScriptsPartial")
+
+</body>
+</html>
