@@ -7,21 +7,12 @@
 -->
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
     @await Html.PartialAsync("MetatagsPartial")
     @await Html.PartialAsync("CssPartial")
+    @await Html.PartialAsync("ScriptsPartial")
 </head>
 <body>
-
-    <!-- Navigation -->
-    @await Html.PartialAsync("HeaderPartial")
-    <!-- Navigation end -->
     @RenderBody()
-    <!-- Footer -->
     @await Html.PartialAsync("FooterPartial")
-    <!-- Footer end -->
-    <!-- Scripts -->
-    @await Html.PartialAsync("ScriptsPartial")
-
 </body>
 </html>

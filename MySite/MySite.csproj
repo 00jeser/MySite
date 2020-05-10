@@ -16,8 +16,6 @@
     <Folder Include="Areas\Admin\Controller\" />
     <Folder Include="Areas\Admin\Views\" />
     <Folder Include="Models\ViewComponents\" />
-    <Folder Include="wwwroot\css\" />
-    <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\sass\" />
     <Folder Include="wwwroot\js\" />
     <Folder Include="Domain\" />
