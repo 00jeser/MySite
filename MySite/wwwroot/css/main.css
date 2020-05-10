@@ -155,13 +155,19 @@ body {
     width: 100%;
 }
 
+.about-text {
+    font-family: "Calisto-MT";
+    width: 100%;
+    font-size: 5vw;
+    margin-left: 5vw;
+}
+
 @media all and (not handheld) {
     .content .site-container .site-container-content {
         width: 60%;
         display: grid;
         grid-template-columns: 50% 50%;
         align-items: center;
-        background-color: rgba(0, 0, 0, 0.01);
     }
     .content .site-container div {
         width: 20%;
@@ -186,6 +192,12 @@ body {
     .site-container-content center img {
         width: 100%;
     }
+    .about-text {
+        font-family: "Calibri";
+        width: 100%;
+        font-size: 5vh;
+        margin-left: 5vw;
+    }
 }
 @media (max-width: 800px) {
     .content .site-container .site-container-content {
@@ -200,11 +212,10 @@ body {
     .site-container-content center img {
         width: 100%;
     }
-}
-
-.about-text {
-    font-family: "Calisto-MT";
-    width: 100%;
-    font-size: 5vw;
-    margin-left: 5vw;
+    .about-text {
+        font-family: "Calibri";
+        width: 100%;
+        font-size: 5vh;
+        margin-left: 5vw;
+    }
 }
