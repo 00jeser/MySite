@@ -12,6 +12,7 @@ namespace MySite.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.ImagePath = $"images/me/{(new Random()).Next(1, 3)}.jpg";
             return View();
         }
         [HttpPost]
