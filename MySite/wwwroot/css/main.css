@@ -198,6 +198,9 @@ body {
         font-size: 5vh;
         margin-left: 5vw;
     }
+    .contactContainerBodyRight {
+        visibility: hidden;
+    }
 }
 @media (max-width: 800px) {
     .content .site-container .site-container-content {
@@ -218,5 +221,8 @@ body {
         width: 100%;
         font-size: 5vh;
         margin-left: 5vw;
+    }
+    .contactContainerBodyRight{
+        visibility:hidden;
     }
 }
