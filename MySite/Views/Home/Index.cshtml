@@ -1,17 +1,8 @@
-﻿<section class="content">
-    <div class="site-container">
-        <div>
-        </div>
-        <div class="site-container-content">
-            <center>
-                <img src=@ViewBag.ImagePath>
-            </center>
-            <div class="about-text">
-                <p style="font-size: 2vmin; margin-bottom: -3vw;">Программист</p>
-                <p>Гавриленко<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspСергей<br>@ViewBag.Br</p>
-            </div>
-        </div>
-        <div>
-        </div>
-    </div>
-</section>
+﻿@if (ViewBag.Br == "Mobile")
+{
+    await Html.PartialAsync("IndexMobile");
+}
+else
+{
+    await Html.PartialAsync("IndexDesktop");
+}
