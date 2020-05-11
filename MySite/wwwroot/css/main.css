@@ -2,6 +2,7 @@ a {
     color: #FFF !important;
     text-decoration: none;
 }
+
 @font-face {
     font-family: 'Calisto-MT';
     src: url(../fonts/Calisto-MT.ttf);
@@ -178,6 +179,7 @@ body {
 
 .site-container-content center img {
     width: 100%;
+    z-index: 66;
 }
 
 .about-text {
@@ -185,31 +187,44 @@ body {
     width: 100%;
     font-size: 4vw;
     margin-left: 5vw;
+}
 
-    @media (max-width: 800px) and (not handheld) {
-        .content .site-container .site-container-content {
-            width: 100%;
-            display: block;
-            align-items: flex-start;
-            background-color: rgba(0, 0, 0, 0.01);
-        }
+.about-text-firstname {
+    animation: fadeInLeft 0.5s;
+}
 
-        .content .site-container div {
-            width: 0%;
-        }
+.about-text-work {
+    animation: fadeInDown 0.5s;
+}
 
-        .site-container-content center img {
-            width: 100vw;
-        }
+.about-text-surname {
+    animation: fadeInRight 0.5s;
+}
 
-        .about-text {
-            font-family: "Calibri";
-            width: 100%;
-            font-size: 5vh;
-            margin-left: 5vw;
-        }
-
-        .contactContainerBodyRight {
-            visibility: hidden;
-        }
+@media (max-width: 800px) {
+    .content .site-container .site-container-content {
+        width: 100%;
+        display: block;
+        align-items: flex-start;
+        background-color: rgba(0, 0, 0, 0.01);
     }
+
+    .content .site-container div {
+        width: 0%;
+    }
+
+    .site-container-content center img {
+        width: 100vw;
+    }
+
+    .about-text {
+        font-family: "Calibri";
+        width: 100%;
+        font-size: 5vh;
+        margin-left: 5vw;
+    }
+
+    .contactContainerBodyRight {
+        visibility: hidden;
+    }
+}

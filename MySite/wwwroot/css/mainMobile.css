@@ -9,8 +9,8 @@
     width: 0%;
 }
 
-.site-container-content center img {
-    width: 100vw;
+center div img {
+    animation: fadeInDown 0.3s;
 }
 
 .about-text {
@@ -20,7 +20,7 @@
     background-position: center;
     background-size: cover;
     margin: 0px;
-    margin-top: -20px;
+    margin-top: -40px;
     margin-bottom: 50px;
     height: 40vh;
 }
@@ -36,4 +36,27 @@
 
 .content {
     background-image: none;
+}
+
+.about-text-firstname {
+    margin-top: -3vh;
+}
+
+.about-text-work {
+    margin-top: -10vh;
+}
+
+.about-text-surname {
+    margin-top: 0;
+}
+.about-text-firstname {
+    animation: lightSpeedInRight 0.5s;
+}
+
+.about-text-work {
+    animation: lightSpeedInRight 0.5s;
+}
+
+.about-text-surname {
+    animation: lightSpeedInRight 0.5s;
 }
