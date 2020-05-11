@@ -1,8 +1,36 @@
 ﻿@if (ViewBag.Br == "Mobile")
 {
-    await Html.PartialAsync("IndexMobile");
+    <section class="content">
+            <center>
+                <div>
+                    <img width="100%" src=@ViewBag.ImagePath>
+                </div>
+                <div class="about-text">
+                    <p><br /></p>
+                    <p style="font-size: 4vmin; margin-bottom: -3vw;">Программист</p>
+                    <p style="font-size: 10vmin;">Гавриленко<br>Сергей</p>
+                </div>
+                <br/>
+            </center>
+    </section>
 }
 else
 {
-    await Html.PartialAsync("IndexDesktop");
+    <section class="content">
+        <div class="site-container">
+            <div>
+            </div>
+            <div class="site-container-content">
+                <center>
+                    <img src=@ViewBag.ImagePath>
+                </center>
+                <div class="about-text">
+                    <p style="font-size: 2vmin; margin-bottom: -3vw;">Программист</p>
+                    <p>Гавриленко<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspСергей</p>
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+    </section>
 }

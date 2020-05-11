@@ -247,3 +247,4 @@ C:\Users\00jes\source\repos\MySiteRepo\MySite\bin\Debug\netcoreapp3.1\Wangkanai.
 C:\Users\00jes\source\repos\MySiteRepo\MySite\bin\Debug\netcoreapp3.1\Wangkanai.Detection.Device.dll
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\MySite.csproj.CoreCompileInputs.cache
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\MySite.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\FooterPartialMobile.cshtml.g.cs

@@ -1,0 +1,39 @@
+.content .site-container .site-container-content {
+    width: 100%;
+    display: block;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.content .site-container div {
+    width: 0%;
+}
+
+.site-container-content center img {
+    width: 100vw;
+}
+
+.about-text {
+    font-family: "Calibri";
+    text-align: center;
+    background-image: url("../images/top-banner-bckg.jpg.mobile.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    height: 40vh;
+}
+
+.contactContainerBodyRight {
+    visibility: hidden;
+}
+
+.contactContainerBody {
+    display: grid;
+    grid-template-columns: 100% 0px;
+}
+
+.content {
+    background-image: none;
+}
