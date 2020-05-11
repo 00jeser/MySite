@@ -1,3 +1,7 @@
+a {
+    color: #FFF !important;
+    text-decoration: none;
+}
 @font-face {
     font-family: 'Calisto-MT';
     src: url(../fonts/Calisto-MT.ttf);
