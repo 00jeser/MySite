@@ -17,6 +17,8 @@ namespace MySite
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews().SetCompatibilityVersion(CompatibilityVersion.Version_3_0).AddSessionStateTempDataProvider();
+            services.AddDetection();
+            services.AddDetectionCore().AddBrowser();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

@@ -215,8 +215,6 @@ C:\Users\00jes\source\repos\MySiteRepo\MySite\bin\Debug\netcoreapp3.1\tr\Microso
 C:\Users\00jes\source\repos\MySiteRepo\MySite\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\00jes\source\repos\MySiteRepo\MySite\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\MySite.csprojAssemblyReference.cache
-C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\MySite.csproj.CoreCompileInputs.cache
-C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\MySite.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\MySite.RazorAssemblyInfo.cache
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\MySite.RazorAssemblyInfo.cs
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\MySite.AssemblyInfoInputs.cache
@@ -242,3 +240,10 @@ C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\staticweba
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\MySite.dll
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\MySite.pdb
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\MySite.genruntimeconfig.cache
+C:\Users\00jes\source\repos\MySiteRepo\MySite\bin\Debug\netcoreapp3.1\Wangkanai.Detection.dll
+C:\Users\00jes\source\repos\MySiteRepo\MySite\bin\Debug\netcoreapp3.1\Wangkanai.Detection.Browser.dll
+C:\Users\00jes\source\repos\MySiteRepo\MySite\bin\Debug\netcoreapp3.1\Wangkanai.Detection.Core.dll
+C:\Users\00jes\source\repos\MySiteRepo\MySite\bin\Debug\netcoreapp3.1\Wangkanai.Detection.Crawler.dll
+C:\Users\00jes\source\repos\MySiteRepo\MySite\bin\Debug\netcoreapp3.1\Wangkanai.Detection.Device.dll
+C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\MySite.csproj.CoreCompileInputs.cache
+C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\MySite.MvcApplicationPartsAssemblyInfo.cache
