@@ -60,3 +60,6 @@ center div img {
 .about-text-surname {
     animation: lightSpeedInRight 0.5s;
 }
+moreButton{
+    width: 90vw;
+}

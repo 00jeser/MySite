@@ -21,17 +21,20 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.MetroButton {
+.socialButtonPos{
     float: left;
     line-height: 56px;
+    width: 50px;
+    height: 50px;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.MetroButton {
     font-size: 20px;
     background: rgb(131, 131, 131);
     border: 2px solid darkgray;
     color: white;
-    margin-top: 2px;
-    width: 50px;
-    height: 50px;
-    margin-right: 2px;
     text-align: center;
 }
 
@@ -145,10 +148,6 @@ body {
         text-align: center;
     }
 
-        .content .site-container div {
-            width: 20%;
-        }
-
         .content .site-container .site-container-content {
             width: 60%;
             height: 100vh;
@@ -173,7 +172,7 @@ body {
     align-items: center;
 }
 
-.content .site-container div {
+.sidebar {
     width: 20%;
 }
 
@@ -187,6 +186,7 @@ body {
     width: 100%;
     font-size: 4vw;
     margin-left: 5vw;
+    text-align:left;
 }
 
 .about-text-firstname {
@@ -201,6 +201,21 @@ body {
     animation: fadeInRight 0.5s;
 }
 
+.moreButton{
+    width: 20vw;
+}
+
+.more {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 200%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
 @media (max-width: 800px) {
     .content .site-container .site-container-content {
         width: 100%;
@@ -209,7 +224,7 @@ body {
         background-color: rgba(0, 0, 0, 0.01);
     }
 
-    .content .site-container div {
+    .sidebar {
         width: 0%;
     }
 
@@ -226,5 +241,9 @@ body {
 
     .contactContainerBodyRight {
         visibility: hidden;
+    }
+
+    .more {
+        width: 100%;
     }
 }
