@@ -63,4 +63,7 @@ center div img {
 .moreButton {
     width: 80vw;
     margin: 1vh;
+        height: 3vh;
 }
+    .moreButton a {
+    }

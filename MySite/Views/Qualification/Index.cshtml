@@ -1,0 +1,27 @@
+﻿
+@if (ViewBag.Br == "Mobile")
+{
+    <section class="content">
+    </section>
+}
+else
+{
+    <section class="content">
+        @foreach (var i in ViewBag.works)
+        {
+            <a href="@i.URL">
+                <div style=" margin: 5px" class="MetroButton MetroButtonA">
+                    <img src="https://sun9-63.userapi.com/vTZ8t8qLa2_JW8tXrG7CT2ho__1qr-yKREV_aA/XwAcSJPSkqc.jpg" style="width:10vw;" />
+                    <div style="width:87vw; height:100%; text-align:left; float:right;">
+                        <p>
+                            @i.Title
+                        </p>
+                        <p>
+                            @i.Description
+                        </p>
+                    </div>
+                </div>
+            </a>
+        }
+    </section>
+}
