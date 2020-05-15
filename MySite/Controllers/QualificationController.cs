@@ -23,6 +23,7 @@ namespace MySite.Controllers
         private void setViewBag() 
         {
             ViewBag.Br = detection.Device.Type.ToString();
+            ViewBag.DopCSS = "../css/Works.css";
         }
 
         public IActionResult Index()
