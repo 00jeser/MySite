@@ -61,7 +61,11 @@
     display: grid;
     grid-template-columns: 10vh auto;
 }
-
+#wrap {
+    position: relative;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+}
 @media (max-width: 790px) {
     .container {
         margin-left: 1vw;

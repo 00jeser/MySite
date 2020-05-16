@@ -5,7 +5,23 @@
 }
 else
 {
-    <section class="content">
+    <section class="content schr1" id="schr1">
+        <script>
+            if (schr1.addEventListener) {
+                if ('onwheel' in document) {
+                    // IE9+, FF17+, Ch31+
+                    schr1.addEventListener("wheel", onWheel1);
+                } else if ('onmousewheel' in document) {
+                    // устаревший вариант события
+                    schr1.addEventListener("mousewheel", onWheel1);
+                } else {
+                    // Firefox < 17
+                    schr1.addEventListener("MozMousePixelScroll", onWheel1);
+                }
+            } else { // IE8-
+                schr1.attachEvent("onmousewheel", onWheel1);
+            }
+        </script>
         <h1 style="margin-top:0;">Здесь информация о моих знаниях и умениях</h1>
         <div class="container">
 
@@ -31,7 +47,23 @@ else
 
         </div>
     </section>
-    <section class="content">
+    <section class="schr2 content" id="schr2">
+        <script>
+            if (schr2.addEventListener) {
+                if ('onwheel' in document) {
+                    // IE9+, FF17+, Ch31+
+                    schr2.addEventListener("wheel", onWheel2);
+                } else if ('onmousewheel' in document) {
+                    // устаревший вариант события
+                    schr2.addEventListener("mousewheel", onWheel2);
+                } else {
+                    // Firefox < 17
+                    schr2.addEventListener("MozMousePixelScroll", onWheel2);
+                }
+            } else { // IE8-
+                schr2.attachEvent("onmousewheel", onWheel2);
+            }
+        </script>
         @foreach (var i in ViewBag.works)
         {
             <a href="@i.URL">

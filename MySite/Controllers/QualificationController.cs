@@ -81,9 +81,29 @@ namespace MySite.Controllers
                 level = "Стажер",
                 percent = 8
             });
+            langs.Add(new language()
+            {
+                name = "c++",
+                level = "Стажер",
+                percent = 8
+            });
+            langs.Add(new language()
+            {
+                name = "c",
+                level = "HelloWorld",
+                percent = 5
+            });
+            langs.Add(new language()
+            {
+                name = "Assembler",
+                level = "HelloWorld",
+                percent = 1
+            });
 
             ViewBag.Langs = langs.ToArray();
 
+
+            ViewBag.DopJS = "../js/qualification.js";
             setViewBag();
             return View();
         }
