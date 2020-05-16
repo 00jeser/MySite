@@ -1,5 +1,4 @@
-﻿
-@if (ViewBag.Br == "Mobile")
+﻿@if (ViewBag.Br == "Mobile")
 {
     <section class="content">
     </section>
@@ -7,12 +6,38 @@
 else
 {
     <section class="content">
+        <h1 style="margin-top:0;">Здесь информация о моих знаниях и умениях</h1>
+        <div class="container">
+
+            <div>
+                <h3>Языки которые я знаю</h3>
+                @foreach (var i in ViewBag.Langs)
+                {
+                    <p class="knowledge-l-p">
+                        @i.name
+                        <progress class="knowledge" max="100" value="@i.percent"></progress>
+                        @i.level
+                    </p>
+                }
+            </div>
+
+            <div>
+                <h3>Технологии которые я знаю</h3>
+                <p class="knowledge-t-p">
+                    ASP.NET Core
+                    <progress class="knowledge" max="100" value="25"></progress>
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <section class="content">
         @foreach (var i in ViewBag.works)
         {
             <a href="@i.URL">
-                <div style="margin: 3px; margin-left: 10vw; margin-right: 10vw;" class="MetroButton MetroButtonA">
-                    <img src="@i.Image" style="width:8vw;" />
-                    <div style="width:69vw; height:100%; text-align:left; float:right;">
+                <div style="margin: 3px; margin-left: 10vw; margin-right: 10vw;" class="MetroButton MetroButtonA Work">
+                    <img src="@i.Image" style="height: 10vh;" />
+                    <div style="width:100%; height:100%; text-align:left; float:right;">
                         <p class="title">
                             @i.Title
                         </p>

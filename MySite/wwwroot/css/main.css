@@ -140,7 +140,7 @@ body {
     padding: 0px;
 }
 
-    .content .site-container {
+    .site-container {
         display: flex;
         align-items: stretch;
         position: relative;
@@ -148,7 +148,7 @@ body {
         text-align: center;
     }
 
-        .content .site-container .site-container-content {
+        .site-container .site-container-content {
             width: 60%;
             height: 100vh;
             border: 1px solid rgba(255, 255, 255, 0.137);

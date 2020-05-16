@@ -22,6 +22,8 @@ namespace MySite.Controllers
         {
             ViewBag.ImagePath = $"https://gavrilenko.herokuapp.com/images/me/{(new Random()).Next(1, 3)}.jpg";
             ViewBag.Br = detection.Device.Type.ToString();
+            ViewBag.Description = "";
+            ViewBag.Keywords = "Гавриленко, Сергей, Константинович";
             return View();
         }
         [HttpPost]

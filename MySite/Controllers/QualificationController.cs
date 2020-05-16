@@ -20,7 +20,7 @@ namespace MySite.Controllers
             _env = env;
         }
 
-        private void setViewBag() 
+        private void setViewBag()
         {
             ViewBag.Br = detection.Device.Type.ToString();
             ViewBag.DopCSS = "../css/Works.css";
@@ -40,13 +40,50 @@ namespace MySite.Controllers
             });
             works.Add(new Work()
             {
-                Title = "Бот говорун",
-                Image = "https://sun9-63.userapi.com/vTZ8t8qLa2_JW8tXrG7CT2ho__1qr-yKREV_aA/XwAcSJPSkqc.jpg",
-                URL = "../Qualification/Govorun",
-                Description = "Это бот для бесед в ВК и Дискорд, который на основе прочитанных сообщений строит подобие нейронки и генерирует сообщения"
+                Title = "GTA Compare",
+                Image = "../images/works/gtacompare.png",
+                URL = "../Qualification/GTACompare",
+                Description = "Это мой 3 проект в Яндекс Лицее. Он написан на Flask."
             });
 
             ViewBag.works = works.ToArray();
+
+
+            List<language> langs = new List<language>();
+
+            langs.Add(new language()
+            {
+                name = "C#",
+                level = "Junior",
+                percent = 35
+            });
+            langs.Add(new language()
+            {
+                name = "Python",
+                level = "Junior",
+                percent = 25
+            });
+            langs.Add(new language()
+            {
+                name = "Java",
+                level = "Стажер",
+                percent = 10
+            });
+            langs.Add(new language()
+            {
+                name = "HTML/CSS",
+                level = "Стажер",
+                percent = 10
+            });
+            langs.Add(new language()
+            {
+                name = "JavaScript",
+                level = "Стажер",
+                percent = 8
+            });
+
+            ViewBag.Langs = langs.ToArray();
+
             setViewBag();
             return View();
         }
