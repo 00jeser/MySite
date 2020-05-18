@@ -9,16 +9,13 @@ else
         <script>
             if (schr1.addEventListener) {
                 if ('onwheel' in document) {
-                    // IE9+, FF17+, Ch31+
                     schr1.addEventListener("wheel", onWheel1);
                 } else if ('onmousewheel' in document) {
-                    // устаревший вариант события
                     schr1.addEventListener("mousewheel", onWheel1);
                 } else {
-                    // Firefox < 17
                     schr1.addEventListener("MozMousePixelScroll", onWheel1);
                 }
-            } else { // IE8-
+            } else {
                 schr1.attachEvent("onmousewheel", onWheel1);
             }
         </script>

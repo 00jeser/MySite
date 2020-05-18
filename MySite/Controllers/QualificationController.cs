@@ -66,6 +66,20 @@ namespace MySite.Controllers
                 URL = "../",
                 Description = "Это UWP приложение для Windows 10, позволяющее настроить трансляцию статуса в вк, на подобии того как это сделано в Discord."
             });
+            works.Add(new Work()
+            {
+                Title = "DiscordGameBot",
+                Image = "../images/works/DSGameBot.png",
+                URL = "../",
+                Description = "Это небольшой вспомогательный бот для моего сервера в Discord. Он написан на Node JS."
+            });
+            works.Add(new Work()
+            {
+                Title = "AllGameLauncher",
+                Image = "../images/works/AGL.png",
+                URL = "../",
+                Description = "Это лаунчер игр с любой платформы, который я переписывал много раз на нескольких технологиях(WinForms, WPF, UWP), пока не вышел GOG Galaxy 2.0"
+            });
 
             ViewBag.works = works.ToArray();
 
