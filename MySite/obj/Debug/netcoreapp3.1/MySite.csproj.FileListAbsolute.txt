@@ -225,7 +225,6 @@ C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\MySite.Raz
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\CssPartial.cshtml.g.cs
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\FooterPartial.cshtml.g.cs
-C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\HeaderPartial.cshtml.g.cs
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\MetatagsPartial.cshtml.g.cs
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ScriptsPartial.cshtml.g.cs
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs

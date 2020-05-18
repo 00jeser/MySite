@@ -22,11 +22,16 @@ else
                 schr1.attachEvent("onmousewheel", onWheel1);
             }
         </script>
-        <h1 style="margin-top:0;">Здесь информация о моих знаниях и умениях</h1>
+        <h1 style="margin-top:0; padding-top: 5px; text-align:center;">Здесь информация о моих знаниях и умениях</h1>
         <div class="container">
 
             <div>
                 <h3>Языки которые я знаю</h3>
+                <p class="knowledge-l-p">
+                    Язык
+                    <a></a>
+                    Уровень знания
+                </p>
                 @foreach (var i in ViewBag.Langs)
                 {
                     <p class="knowledge-l-p">
@@ -39,10 +44,13 @@ else
 
             <div>
                 <h3>Технологии которые я знаю</h3>
-                <p class="knowledge-t-p">
-                    ASP.NET Core
-                    <progress class="knowledge" max="100" value="25"></progress>
-                </p>
+                @foreach (var i in ViewBag.teches)
+                {
+                    <p class="knowledge-t-p">
+                        @i.name
+                        <progress class="knowledge" max="100" value="@i.Level"></progress>
+                    </p>
+                }
             </div>
 
         </div>
@@ -68,7 +76,7 @@ else
         {
             <a href="@i.URL">
                 <div style="margin: 3px; margin-left: 10vw; margin-right: 10vw;" class="MetroButton MetroButtonA Work">
-                    <img src="@i.Image" style="height: 10vh;" />
+                    <img src="@i.Image" style="height: 10vh; max-width: 10vh" />
                     <div style="width:100%; height:100%; text-align:left; float:right;">
                         <p class="title">
                             @i.Title

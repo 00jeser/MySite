@@ -8,6 +8,8 @@ function onWheel1(e) {
 
     if (delta > 0)
         scrollTo(document.querySelector('.schr2').offsetTop, 10);
+    else
+        scrollTo(0, 10);
     e.preventDefault ? e.preventDefault() : (e.returnValue = false);
     //alert(delta);
 }
