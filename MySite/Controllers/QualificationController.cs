@@ -26,6 +26,12 @@ namespace MySite.Controllers
             ViewBag.DopCSS = "../css/Works.css";
         }
 
+        public IActionResult Govorun()
+        {
+            setViewBag();
+            return View("Index");
+        }
+
         public IActionResult Index()
         {
             List<Work> works = new List<Work>();

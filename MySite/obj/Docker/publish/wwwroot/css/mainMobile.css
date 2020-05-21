@@ -1,0 +1,69 @@
+.content .site-container .site-container-content {
+    width: 100%;
+    display: block;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.content .site-container div {
+    width: 0%;
+}
+
+center div img {
+    animation: fadeInDown 0.3s;
+}
+
+.about-text {
+    font-family: "Calibri";
+    text-align: center;
+    background-image: url("../images/top-banner-bckg.jpg.mobile.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    margin-top: -40px;
+    margin-bottom: 50px;
+    height: 40vh;
+}
+
+.contactContainerBodyRight {
+    visibility: hidden;
+}
+
+.contactContainerBody {
+    display: grid;
+    grid-template-columns: 100% 0px;
+}
+
+.content {
+    background-image: none;
+}
+
+.about-text-firstname {
+    margin-top: -3vh;
+}
+
+.about-text-work {
+    margin-top: -10vh;
+}
+
+.about-text-surname {
+    margin-top: 0;
+}
+.about-text-firstname {
+    animation: lightSpeedInRight 0.5s;
+}
+
+.about-text-work {
+    animation: lightSpeedInRight 0.5s;
+}
+
+.about-text-surname {
+    animation: lightSpeedInRight 0.5s;
+}
+.moreButton {
+    width: 80vw;
+    margin: 1vh;
+        height: 3vh;
+}
+    .moreButton a {
+    }
