@@ -67,6 +67,12 @@
     overflow: hidden;
     -webkit-overflow-scrolling: touch;
 }
+.bigp{
+    font-size: 2vh;
+}
+.exImg{
+    width: 29%;
+}
 @media (max-width: 790px) {
     .container {
         margin-left: 1vw;

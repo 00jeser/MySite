@@ -35,7 +35,9 @@ center div img {
 }
 
 .content {
-    background-image: none;
+    background-image: url("../images/top-banner-bckg.jpg.mobile.jpg");
+    background-position-x: left;
+    margin: 0;
 }
 
 .about-text-firstname {

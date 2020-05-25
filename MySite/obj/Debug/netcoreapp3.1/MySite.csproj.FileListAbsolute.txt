@@ -247,3 +247,8 @@ C:\Users\00jes\source\repos\MySiteRepo\MySite\bin\Debug\netcoreapp3.1\Wangkanai.
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\MySite.csproj.CoreCompileInputs.cache
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\MySite.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\Razor\Views\Qualification\Index.cshtml.g.cs
+C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\Razor\Views\Qualification\Govorun.cshtml.g.cs
+C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\Razor\Views\Qualification\GTACompare.cshtml.g.cs
+C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\Razor\Views\Qualification\VkStatusTranslator.cshtml.g.cs
+C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\Razor\Views\Qualification\AGL.cshtml.g.cs
+C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\Razor\Views\Qualification\DSGameBot.cshtml.g.cs

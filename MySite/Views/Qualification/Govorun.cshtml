@@ -2,6 +2,18 @@
 @{
     ViewData["Title"] = "Govorun";
 }
-
-<h1>Govorun</h1>
+<section class="content">
+    <center>
+        <img style="height: 20vh;" src="https://sun9-63.userapi.com/vTZ8t8qLa2_JW8tXrG7CT2ho__1qr-yKREV_aA/XwAcSJPSkqc.jpg" />
+    </center>
+    <h1>Govorun</h1>
+    <p>
+        Однажды, один мой друг добавил в нашу с друзьями беседу бота, который читая сообщения генерировал новые. Тогда мне стало интересно попробовать сделать своего такого бота, заодоно я изучил архитектуру ASP.NET Core и работу с нейросетями.<br />
+        Архитектура бота работает так:<br />&nbsp&nbsp&nbsp1) есть web api который на запрос отправляет сгенерированное сообщение. <br />    &nbsp&nbsp&nbsp2)есть два независемых приложения, обеспечивающие работу бота в вк и в дс, которые с определенным шансом отвечают на сообщения, сгенерированым api текстом.
+    </p>
+    @for (int i = 1; i <= 3; i++)
+    {
+        <img src="../images/works/GovorunEx @i .png" />
+    }
+</section>
 

@@ -29,7 +29,27 @@ namespace MySite.Controllers
         public IActionResult Govorun()
         {
             setViewBag();
-            return View("Index");
+            return View();
+        }
+        public IActionResult GTACompare()
+        {
+            setViewBag();
+            return View();
+        }
+        public IActionResult VkStatusTranslator()
+        {
+            setViewBag();
+            return View();
+        }
+        public IActionResult DSGameBot()
+        {
+            setViewBag();
+            return View();
+        }
+        public IActionResult AGL()
+        {
+            setViewBag();
+            return View();
         }
 
         public IActionResult Index()
@@ -62,28 +82,28 @@ namespace MySite.Controllers
             {
                 Title = "Мой рюкзак",
                 Image = "../images/works/.png",
-                URL = "../",
+                URL = "../Qualification/BP",
                 Description = "Это рюкзак с экраном 16x16 управляемый с платформы arduino. Прошивка написана полностью мной на С++."
             });
             works.Add(new Work()
             {
                 Title = "VkStatusTranslator",
                 Image = "../images/works/VkStatusTranslator.png",
-                URL = "../",
+                URL = "../Qualification/VkStatusTranslator",
                 Description = "Это UWP приложение для Windows 10, позволяющее настроить трансляцию статуса в вк, на подобии того как это сделано в Discord."
             });
             works.Add(new Work()
             {
                 Title = "DiscordGameBot",
                 Image = "../images/works/DSGameBot.png",
-                URL = "../",
+                URL = "../Qualification/DSGameBot",
                 Description = "Это небольшой вспомогательный бот для моего сервера в Discord. Он написан на Node JS."
             });
             works.Add(new Work()
             {
                 Title = "AllGameLauncher",
                 Image = "../images/works/AGL.png",
-                URL = "../",
+                URL = "../Qualification/AGL",
                 Description = "Это лаунчер игр с любой платформы, который я переписывал много раз на нескольких технологиях(WinForms, WPF, UWP), пока не вышел GOG Galaxy 2.0"
             });
 
