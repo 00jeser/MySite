@@ -38,6 +38,7 @@ center div img {
     background-image: url("../images/top-banner-bckg.jpg.mobile.jpg");
     background-position-x: left;
     margin: 0;
+    width: 100vw;
 }
 
 .about-text-firstname {
@@ -45,13 +46,17 @@ center div img {
 }
 
 .about-text-work {
-    margin-top: -10vh;
+    line-height: 4vh;
+    font-size: 4vh;
 }
 
 .about-text-surname {
+    font-size: 6vh;
     margin-top: 0;
 }
+
 .about-text-firstname {
+    font-size: 6vh;
     animation: lightSpeedInRight 0.5s;
 }
 
@@ -62,10 +67,11 @@ center div img {
 .about-text-surname {
     animation: lightSpeedInRight 0.5s;
 }
+
 .moreButton {
     width: 80vw;
     margin: 1vh;
-        height: 3vh;
+    margin-top: 0;
+    min-height: 5vh;
+    line-height:4.9vh;
 }
-    .moreButton a {
-    }

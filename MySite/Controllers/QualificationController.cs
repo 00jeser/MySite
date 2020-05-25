@@ -51,6 +51,11 @@ namespace MySite.Controllers
             setViewBag();
             return View();
         }
+        public IActionResult BP()
+        {
+            setViewBag();
+            return View();
+        }
 
         public IActionResult Index()
         {
