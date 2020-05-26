@@ -26,7 +26,7 @@
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/Social",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/Social/game",
       "publishAllPorts": true,
       "useSSL": true
     }

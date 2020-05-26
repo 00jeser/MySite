@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Games";
+}
+
+<section class="content">
+    <br />
+    <h1 style="text-align: center;">Это игры в которые я играл и моя оценка</h1>
+    <center>
+        <ul>
+            @foreach (var g in ViewBag.games)
+            {
+                <li class="MetroButton gameli">
+                    <style type="text/css">
+                    .@g.id {
+                        width: 90%;
+                        border: 0;
+                        height: 5px;
+                        display: table-cell;
+                        text-align: center;
+                        vertical-align: middle;
+                        border-radius: 0px;
+                        background: #ffffff;
+                        margin: auto;
+                    }
+
+                        .@g.id::-webkit-progress-bar {
+                            background: #fff;
+                        }
+
+                        .@g.id::-webkit-progress-value {
+                            background: @g.color;
+                        }
+
+                        .@g.id::-moz-progress-bar {
+                            background: @g.color;
+                        }
+                    </style>
+                    <div class="game">
+                        <p>@g.name</p>
+                        <img src="@g.url" />
+                        @if (g.ocen != -1)
+                        {
+                            <div class="gamediv">
+                                <p>@g.ocen</p>
+                                <progress class="@g.id" max="100" value="@g.ocen"></progress>
+                            </div>
+                        }
+                    </div>
+                </li>
+            }
+        </ul>
+    </center>
+</section>
+<br />
