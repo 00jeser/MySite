@@ -39,7 +39,8 @@ namespace MySite
                     await context.Response.WriteAsync("Hello World!");
                 });
                 endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}");
-                endpoints.MapControllerRoute("default", "Qualification/{action=Index}/{Id?}");
+                endpoints.MapControllerRoute("qualification", "Qualification/{action=Index}/{Id?}");
+                endpoints.MapControllerRoute("social", "Social/{action=Index}/{Id?}");
             });
         }
     }

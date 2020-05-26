@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DabaeAnrOBsmZ7KxHSGu4Yurk1e8AKHcQyvanN5u6HdLZ1rAw07+PyJKQZL0K8Fv2fd3ddAgPukZfhzeIyigEQ==",
+  "dgSpecHash": "+MeX507Nh/OLcMzOFcJVwR5Ix9zdy6PWEPaN4VaW366WANNofcjSt4zfuujNyYgMZ3kLf0IZwaW7zUp1+9cLeQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\00jes\\source\\repos\\MySiteRepo\\MySite\\MySite.csproj",
   "expectedPackageFiles": [
@@ -130,7 +130,8 @@
     "C:\\Users\\00jes\\.nuget\\packages\\wangkanai.detection.browser\\2.0.0\\wangkanai.detection.browser.2.0.0.nupkg.sha512",
     "C:\\Users\\00jes\\.nuget\\packages\\wangkanai.detection.core\\2.0.0\\wangkanai.detection.core.2.0.0.nupkg.sha512",
     "C:\\Users\\00jes\\.nuget\\packages\\wangkanai.detection.crawler\\2.0.0\\wangkanai.detection.crawler.2.0.0.nupkg.sha512",
-    "C:\\Users\\00jes\\.nuget\\packages\\wangkanai.detection.device\\2.0.0\\wangkanai.detection.device.2.0.0.nupkg.sha512"
+    "C:\\Users\\00jes\\.nuget\\packages\\wangkanai.detection.device\\2.0.0\\wangkanai.detection.device.2.0.0.nupkg.sha512",
+    "C:\\Users\\00jes\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
   "logs": []
 }

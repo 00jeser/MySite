@@ -252,3 +252,4 @@ C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\Razor\View
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\Razor\Views\Qualification\VkStatusTranslator.cshtml.g.cs
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\Razor\Views\Qualification\AGL.cshtml.g.cs
 C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\Razor\Views\Qualification\DSGameBot.cshtml.g.cs
+C:\Users\00jes\source\repos\MySiteRepo\MySite\obj\Debug\netcoreapp3.1\Razor\Views\Social\Index.cshtml.g.cs
