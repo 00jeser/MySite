@@ -21,9 +21,9 @@ namespace MySite.Controllers
         public IActionResult Index()
         {
             if(detection.Browser.Type == BrowserType.Safari)
-                ViewBag.ImagePath = $"../images/me/{(new Random()).Next(1, 3)}.jpg";
+                ViewBag.ImagePath = $"../images/me/{(new Random()).Next(0, 18)}.jpg";
             else
-                ViewBag.ImagePath = $"../images/me/{(new Random()).Next(1, 3)}.webp";
+                ViewBag.ImagePath = $"../images/me/{(new Random()).Next(0, 18)}.webp";
             ViewBag.Br = detection.Device.Type.ToString();
             ViewBag.Description = "";
             ViewBag.Keywords = "Гавриленко, Сергей, Константинович";
@@ -32,7 +32,10 @@ namespace MySite.Controllers
         [HttpPost]
         public IActionResult Index(ContactModel c)
         {
-            ViewBag.ImagePath = $"../images/me/{(new Random()).Next(1, 3)}.jpg";
+            if (detection.Browser.Type == BrowserType.Safari)
+                ViewBag.ImagePath = $"../images/me/{(new Random()).Next(0, 18)}.jpg";
+            else
+                ViewBag.ImagePath = $"../images/me/{(new Random()).Next(0, 18)}.webp";
             ViewBag.Br = detection.Device.Type.ToString();
             MailAddress from = new MailAddress("boss.gavrilenko@yandex.ru", "Гавриленко Сергей");
             MailAddress to = new MailAddress("boss.gavrilenko@bk.ru");
