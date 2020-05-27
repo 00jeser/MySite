@@ -4,13 +4,20 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MySite.Models.Social;
+using Wangkanai.Detection;
 
 namespace MySite.Controllers
 {
     public class SocialController : Controller
     {
+        readonly IDetection detection;
+        public SocialController(IDetection d)
+        {
+            detection = d;
+        }
         public void SetViewBag()
         {
+            ViewBag.danger = (detection.Browser.Type == BrowserType.Safari);
             ViewBag.DopCSS = "../css/Social.css";
         }
         public IActionResult Index()
@@ -25,13 +32,13 @@ namespace MySite.Controllers
             gms.Add(new Game
             {
                 name = "The Walking Dead A new Frontier",
-                url = "http://www.aumanack.etc.br/wp-content/uploads/2017/02/LOGO170222_103530.png",
+                url = "https://static.metacritic.com/images/products/games/0/ff0a999af590cb76667d2733924201d7-98.jpg",
                 ocen = 52
             });
             gms.Add(new Game
             {
                 name = "Journey",
-                url = "https://cdn2.unrealengine.com/Diesel%2Fproduct%2Fjourney%2Flogo%2FJourney_logo_nopadding-14427x2744-26a719c36434ee7073ab4fb9f48aa3df8f563f33.png?h=270&resize=1&w=480",
+                url = "https://static.metacritic.com/images/products/games/0/2efadc9d1e6e95e69da629f43895d2cf-98.jpg",
                 ocen = 98
             });
             gms.Add(new Game
@@ -54,7 +61,7 @@ namespace MySite.Controllers
             });
             gms.Add(new Game
             {
-                name = "ancestors the humankind odyssey",
+                name = "Ancestors the Humankind",
                 url = "http://d.radikal.ru/d28/1908/35/fcd085ef2446.png",
                 ocen = 50
             });

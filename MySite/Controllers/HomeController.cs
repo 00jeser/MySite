@@ -20,7 +20,10 @@ namespace MySite.Controllers
         }
         public IActionResult Index()
         {
-            ViewBag.ImagePath = $"../images/me/{(new Random()).Next(1, 3)}.jpg";
+            if(detection.Browser.Type == BrowserType.Safari)
+                ViewBag.ImagePath = $"../images/me/{(new Random()).Next(1, 3)}.jpg";
+            else
+                ViewBag.ImagePath = $"../images/me/{(new Random()).Next(1, 3)}.webp";
             ViewBag.Br = detection.Device.Type.ToString();
             ViewBag.Description = "";
             ViewBag.Keywords = "Гавриленко, Сергей, Константинович";

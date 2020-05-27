@@ -1,10 +1,15 @@
 ﻿@{
     ViewData["Title"] = "Games";
 }
-
+@if (ViewBag.danger)
+{
+    <section style="background:red;">
+        Внимание, эта часть сайта не адаптированна под браузер Safari, из за отсталости Apple в поддержке формата WebP. Советую вам использовать другой браузер
+    </section>
+}
 <section class="content">
     <br />
-    <h1 style="text-align: center;">Это игры в которые я играл и моя оценка</h1>
+    <h1 style="text-align: center; font-size: 50px;">Это игры в которые я играл и моя оценка</h1>
     <center>
         <ul>
             @foreach (var g in ViewBag.games)
@@ -37,7 +42,7 @@
                     </style>
                     <div class="game">
                         <p>@g.name</p>
-                        <img src="@g.url" />
+                        <img src="" />
                         @if (g.ocen != -1)
                         {
                             <div class="gamediv">
