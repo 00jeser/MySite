@@ -47,9 +47,6 @@ body {
     transition: 0.2s;
     border: 2px solid lightgray;
     background: rgb(190, 190, 190);
-    width: 10;
-    height: 10;
-    scale: 0.5;
     transform: scale(0.95);
 }
 

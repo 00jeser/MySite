@@ -20,7 +20,7 @@ namespace MySite.Controllers
         }
         public IActionResult Index()
         {
-            if(detection.Browser.Type == BrowserType.Safari)
+            if(detection.Browser == null || detection.Browser.Type == BrowserType.Safari)
                 ViewBag.ImagePath = $"../images/me/{(new Random()).Next(0, 18)}.jpg";
             else
                 ViewBag.ImagePath = $"../images/me/{(new Random()).Next(0, 18)}.webp";
