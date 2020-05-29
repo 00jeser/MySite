@@ -7,8 +7,31 @@
     <h1 style="text-align: center;">Обо мне</h1>
     <p>
         Я Гавриленко Сергей Константинович, друзья зовут меня Се́рга. <br />
-        Мне @(((DateTime.Now - (new DateTime(2002, 11, 15, 13, 30, 00, 00))).TotalDays / 365.25d).ToString()) лет.
-        В свободное время я либо <a href="../Qualification/" class="MetroButton MetroButtonA">программирую</a>, либо <a href="~/Social/game" class="MetroButton MetroButtonA">играю</a>.
+        Мне @(((DateTime.Now - (new DateTime(2002, 11, 15, 13, 30, 00, 00))).TotalDays / 365.25d).ToString()) лет. <br />
+        В свободное время я либо <a href="../Qualification/" class="MetroButton MetroButtonA">программирую</a>, либо <a href="~/Social/game" class="MetroButton MetroButtonA">играю</a>.<br />
+        <br />
     </p>
+    <h1 style="width: 100%; text-align:center;">Мои награды</h1>
+    <ul>
+        @foreach (string im in new string[]{
+             "yali.jpg",
+             "strl.jpeg",
+             "smr.jpg",
+             "gag.jpg",
+             "krid.jpg",
+             "man.jpg",
+             "man1.jpg",
+             "rabt.jpg",
+             "TaGOl.jpeg",
+             "wels.jpg",
+         })
+        {
+            <li class="dplli">
+                <a href="../images/certificate/@im">
+                    <img height="300" src="../images/certificate/@im" />
+                </a>
+            </li>
+        }
+    </ul>
 </section>
 
