@@ -31,6 +31,11 @@ namespace MySite.Controllers
             setViewBag();
             return View();
         }
+        public IActionResult wp()
+        {
+            setViewBag();
+            return View();
+        }
         public IActionResult GTACompare()
         {
             setViewBag();
@@ -110,6 +115,13 @@ namespace MySite.Controllers
                 Image = "../images/works/AGL.png",
                 URL = "../Qualification/AGL",
                 Description = "Это лаунчер игр с любой платформы, который я переписывал много раз на нескольких технологиях(WinForms, WPF, UWP), пока не вышел GOG Galaxy 2.0"
+            });
+            works.Add(new Work()
+            {
+                Title = "WPF WebP Converter",
+                Image = "../images/works/webpwpf.png",
+                URL = "../Qualification/wp",
+                Description = "Конвертор png, jpg в WebP"
             });
 
             ViewBag.works = works.ToArray();
