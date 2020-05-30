@@ -23,7 +23,7 @@ namespace MySite
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
+            if (true | env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
