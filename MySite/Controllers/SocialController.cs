@@ -37,6 +37,12 @@ namespace MySite.Controllers
             });
             gms.Add(new Game
             {
+                name = "Detroit: Become Human",
+                url = "https://static.metacritic.com/images/products/games/0/ff0a999af590cb76667d2733924201d7-98.jpg",
+                ocen = 99
+            });
+            gms.Add(new Game
+            {
                 name = "Journey",
                 url = "https://static.metacritic.com/images/products/games/0/2efadc9d1e6e95e69da629f43895d2cf-98.jpg",
                 ocen = 98
